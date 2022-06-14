@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('./images/image3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-header {
+    padding-top: 10px;
+    margin-left: 100px;
+    color: white;
+    display: flex;
+    gap: 150px;
+}
+
+.main-header h1 {
+    color: rgb(247, 99, 45);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.2em;
+}
+
+
+.list {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+
+.list-items {
+    list-style: none;
+}
+
+.list-items a {
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+}
+
+.list-items a:hover {
+    transition: 0.8s ease;
+    color: rgb(247, 99, 45);
+}
+
+.search {
+    width: 300px;
+}
+
+.sch {
+    background: transparent;
+    border: 1px rgb(247, 99, 45) solid;
+    height: 40px;
+    width: 200px;
+    margin-top: 13px;
+    color: white;
+    font-size: 16px;
+    float: left;
+    border-right: none;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    background: rgb(247, 99, 45);
+    border-left: none;
+    border: 2px rgb(247, 99, 45) solid;
+    margin-top: 13px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.btn:hover {
+    color: rgb(247, 99, 45);
+    background: #fff;
+    border: none;
+    transition: 0.5s ease;
+}
+
+.section {
+    margin-left: 100px;
+    padding-top: 120px;
+}
+
+.section h1 {
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.section span {
+    color: rgb(247, 99, 45);
+    letter-spacing: 3px;
+    font-size: 1.15em;
+}
+
+.section p {
+    color: #fff;
+    padding-bottom: 30px;
+
+}
+
+.section .join {
+    color: #fff;
+    background: rgb(247, 99, 45);
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 8px;
+    font-size: 1.5em;
+}
+
+.section a:hover {
+    color: rgb(222, 183, 111);
+    transition: 0.7s ease;
+
+}
+
+
+.section {
+    display: flex;
+}
+
+.form {
+    width: 300px;
+    height: 400px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.8) 50%);
+    color: white;
+    position: absolute;
+    right: 80px;
+    top: 150px;
+    border-radius: 7px;
+}
+
+.btn-1 {
+    width: 260px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px #fff solid;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.btn-1 p {
+    color: rgb(247, 99, 45);
+    font-size: 1.6em;
+    font-weight: bold;
+    padding: 5px 0px;
+}
+
+.input-1 {
+    border: 1px rgb(247, 99, 45) solid;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-left: 20px;
+    width: 260px;
+    padding-top: 20px;
+    color: #fff;
+    text-align: center;
+
+}
+
+.input-2 {
+    border: 1px rgb(247, 99, 45) solid;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-left: 20px;
+    width: 260px;
+    padding-top: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.btn-2 {
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 260px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background: rgb(247, 99, 45);
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.btn-2:hover {
+    background: #fff;
+    color: rgb(247, 99, 45);
+    transition: 0.8s ease;
+}
+
+.acct {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.acct a {
+    text-decoration: none;
+    color: rgb(247, 99, 45);
+}
+
+.log {
+    text-align: center;
+
+}
+
+.list-2 {
+    display: flex;
+    margin-left: 35px;
+    gap: 20px;
+    list-style: none;
+    position: relative;
+    bottom: 10px;
+
+}
+
+.list-items-1 a {
+    color: #fff;
+
+}
+
+.list-items-1 a:hover {
+    color: rgb(247, 99, 45);
+    transition: 0.7s ease;
+}
