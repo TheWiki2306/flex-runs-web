@@ -53,18 +53,18 @@
 
                 <h2>Courses Available:</h2>
                 <ul class="courses-list">
-                    <li class="courses-list-items"> <span>Html:</span> <br> <br> &nbsp; A basic language for building
+                    <li class="courses-list-items"> <span>Html:</span> <br> <br> A basic language for building
                         web
                         pages</li>
-                    <li class="courses-list-items"> <span>Css:</span> <br> <br>&nbsp; A language for styling web pages
+                    <li class="courses-list-items"> <span>Css:</span> <br> <br> A language for styling web pages
                     </li>
-                    <li class="courses-list-items"> <span> javaSript:</span> <br> <br> &nbsp; A language for programming
+                    <li class="courses-list-items"> <span> javaSript:</span> <br> <br> A language for programming
                         web
                         pages</li>
-                    <li class="courses-list-items"> <span> Angular.js:</span> <br> <br> &nbsp; A javaSript framework
+                    <li class="courses-list-items"> <span> Angular.js:</span> <br> <br> A javaSript framework
                     </li>
-                    <li class="courses-list-items"> <span> React.js: </span> <br> <br> &nbsp; A javaSript Library</li>
-                    <li class="courses-list-items"> <span> Vue.js: </span> <br> <br> &nbsp; A javaSript framework</li>
+                    <li class="courses-list-items"> <span> React.js: </span> <br> <br> A javaSript Library</li>
+                    <li class="courses-list-items"> <span> Vue.js: </span> <br> <br> A javaSript framework</li>
                 </ul>
             </div>
             <div class="form">
@@ -99,8 +99,6 @@
         </div>
     </div>
 
-
-
     <section class="section-2">
 
         <p>Learn something new about Web Development everyday.</p>
@@ -131,11 +129,14 @@
     <script>
         const hamburger = document.querySelector(".hamburger");
         const menu = document.querySelector(".list");
-        const items = document.querySelectorAll(".list-items");
+        const items = document.querySelector(".list-items");
+        const section = document.querySelector(".section");
+
 
         hamburger.addEventListener("click", () => {
             hamburger.classList.toggle("active");
             menu.classList.toggle("active");
+            section.classList.toggle("active");
         })
 
         items.forEach(item => {
