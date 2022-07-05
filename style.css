@@ -3028,13 +3028,15 @@ span {
 
     .section-2 .list-3 {
 
+        display: none;
+        /* 
         padding-top: 20px;
         padding-bottom: 30px;
         margin-left: 20px;
         margin-right: 20px;
         gap: 30px;
         font-size: 0.8em;
-        justify-content: space-around;
+        justify-content: space-around; */
     }
 
 
@@ -3101,13 +3103,14 @@ span {
     }
 
     .section-2 .list-3 {
+        display: none;
 
-        padding-top: 20px;
+        /* padding-top: 20px;
         padding-bottom: 30px;
         margin-left: 20px;
         margin-right: 20px;
         gap: 30px;
-        justify-content: space-around;
+        justify-content: space-around; */
     }
 
     .main-footer {
@@ -3169,13 +3172,14 @@ span {
     }
 
     .section-2 .list-3 {
-
+        display: none;
+        /* 
         padding-top: 20px;
         padding-bottom: 30px;
         margin-left: 20px;
         margin-right: 20px;
         gap: 25px;
-        justify-content: space-around;
+        justify-content: space-around; */
     }
 
     .main-footer {
