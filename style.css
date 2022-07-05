@@ -3359,7 +3359,7 @@ span {
     }
 
     .section-2 .sub input {
-        margin-left: 65px;
+        margin-left: 75px;
         width: 150px;
         height: 20px;
         border-radius: 3px;
@@ -3381,13 +3381,16 @@ span {
     }
 
     .section-2 h1 {
-        width: 270px;
+        width: 280px;
     }
 
 
     .section-2 .list-3 {
-        justify-content: space-around;
-        gap: 15px;
+        margin-left: 20px;
+        justify-content: space-between;
+        width: 50%;
+        gap: 20px;
+
     }
 
 
