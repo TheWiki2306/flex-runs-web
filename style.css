@@ -3250,11 +3250,11 @@ span {
 
 
     .section-2 .list-3 {
-        margin-left: 20px;
+        /* margin-left: 20px;
         justify-content: space-between;
         width: 100%;
-        gap: 50px;
-
+        gap: 50px; */
+        display: none;
     }
 
     .main-footer {
@@ -3269,12 +3269,12 @@ span {
 
 @media(max-width: 365px) {
     .section-2 .list-3 {
-        margin-left: 20px;
+        /* margin-left: 20px;
         justify-content: space-between;
         width: 100%;
-        gap: 50px;
+        gap: 50px; */
 
-
+        display: none;
     }
 }
 
@@ -3326,10 +3326,11 @@ span {
 
 
     .section-2 .list-3 {
-        margin-left: 20px;
+        display: none;
+        /* margin-left: 20px;
         justify-content: space-between;
         width: 50%;
-        gap: 20px;
+        gap: 20px; */
 
     }
 
@@ -3386,11 +3387,11 @@ span {
 
 
     .section-2 .list-3 {
-        margin-left: 20px;
+        /* margin-left: 20px;
         justify-content: space-between;
         width: 50%;
-        gap: 20px;
-
+        gap: 20px; */
+        display: none;
     }
 
 
