@@ -3250,8 +3250,8 @@ span {
 
 
     .section-2 .list-3 {
-        margin-left: 120px;
-        justify-content: space-around;
+        margin-left: 20px;
+        justify-content: space-between;
         width: 50%;
         gap: 20px;
 
