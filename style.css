@@ -3271,8 +3271,9 @@ span {
     .section-2 .list-3 {
         margin-left: 20px;
         justify-content: space-between;
-        width: 50%;
-        gap: 20px;
+        width: 100%;
+        gap: 50px;
+
 
     }
 }
@@ -3325,9 +3326,11 @@ span {
 
 
     .section-2 .list-3 {
-        margin-left: 20px;
-        justify-content: space-between;
-        gap: 15px;
+        margin-left: 120px;
+        justify-content: space-around;
+        width: 50%;
+        gap: 10px;
+
     }
 
 }
