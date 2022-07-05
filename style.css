@@ -3266,6 +3266,17 @@ span {
 
 }
 
+
+@media(max-width: 365px) {
+    .section-2 .list-3 {
+        margin-left: 20px;
+        justify-content: space-between;
+        width: 50%;
+        gap: 20px;
+
+    }
+}
+
 @media(max-width: 360px) {
 
     .list {
