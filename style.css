@@ -2661,7 +2661,7 @@ span {
 
     .section-2 .sub h2 {
         color: rgb(247, 99, 45);
-        padding-left: 55px;
+        padding-left: 125px;
         font-size: 1.5em;
     }
 
@@ -2710,7 +2710,7 @@ span {
         margin-left: 20px;
         margin-right: 20px;
 
-        gap: 7px;
+        gap: 26px;
     }
 
     .main-footer {
@@ -2722,8 +2722,31 @@ span {
 }
 
 @media (max-width: 410px) {
+
     .section-2 p {
         width: 330px;
+    }
+
+
+    .section-2 .sub h2 {
+        color: rgb(247, 99, 45);
+        padding-left: 135px;
+        font-size: 1.5em;
+    }
+
+    .section-2 .sub input {
+        margin-left: 120px;
+        width: 150px;
+        height: 20px;
+        border-radius: 3px;
+        padding: 5px;
+    }
+
+    .section-2 .sub .sub-text {
+
+        border: 0px;
+        padding-left: 66px;
+
     }
 }
 
@@ -2808,7 +2831,7 @@ span {
     }
 
     .section .sub-section .web-text {
-        width: 250px;
+        width: 320px;
         padding-top: 20px;
     }
 
@@ -2837,7 +2860,7 @@ span {
 
     .section-1 {
         display: block;
-        margin-left: 40px;
+        margin-left: 60px;
     }
 
     .section-1 p {
@@ -2860,7 +2883,7 @@ span {
     .section-2 p {
 
         padding-top: 15px;
-        margin-left: 20px;
+        margin-left: 35px;
         font-size: 1em;
         width: 310px;
 
@@ -2876,12 +2899,12 @@ span {
 
     .section-2 .sub h2 {
         color: rgb(247, 99, 45);
-        padding-left: 75px;
+        padding-left: 125px;
         font-size: 1.5em;
     }
 
     .section-2 .sub input {
-        margin-left: 80px;
+        margin-left: 110px;
         width: 150px;
         height: 20px;
         border-radius: 3px;
@@ -2891,7 +2914,7 @@ span {
     .section-2 .sub .sub-text {
 
         border: 0px;
-        padding-left: 30px;
+        padding-left: 60px;
 
     }
 
@@ -2904,7 +2927,7 @@ span {
 
     .section-2 .sub-text-2 {
 
-        margin-left: -20px;
+        margin-left: 10px;
         font-size: 0.8em;
         width: 250px;
     }
@@ -2914,7 +2937,7 @@ span {
         font-size: 1.1em;
         margin-left: 20px;
         letter-spacing: 0px;
-        width: 320px;
+        width: 330px;
         padding-top: 70px;
     }
 
@@ -2924,11 +2947,14 @@ span {
         padding-bottom: 30px;
         margin-left: 20px;
         margin-right: 20px;
-        gap: 7px;
+        gap: 30px;
+        font-size: 0.8em;
     }
 
+
+
     .main-footer {
-        margin-left: -300px;
+        margin-left: -250px;
         padding-top: 30px;
         padding-bottom: 10px;
         color: rgb(247, 99, 45);
@@ -2936,20 +2962,66 @@ span {
 }
 
 @media(max-width: 390px) {
+
+    .section .sub-section .web-text {
+        width: 310px;
+        padding-top: 20px;
+    }
+
     .section-2 p {
 
         padding-top: 15px;
-        margin-left: 30px;
+        margin-left: 70px;
         font-size: 1em;
         width: 250px;
 
     }
 
-    .section .sub-section .web-text {
-        width: 250px;
-        padding-top: 20px;
+    .section-2 .sub {
+
+        padding-top: 50px;
+        margin-left: 0px;
     }
 
+
+    .section-2 .sub h2 {
+        color: rgb(247, 99, 45);
+        padding-left: 125px;
+        font-size: 1.5em;
+    }
+
+    .section-2 .sub input {
+        margin-left: 110px;
+        width: 150px;
+        height: 20px;
+        border-radius: 3px;
+        padding: 5px;
+    }
+
+    .section-2 h1 {
+
+        font-size: 1.1em;
+        margin-left: 20px;
+        letter-spacing: 0px;
+        width: 330px;
+        padding-top: 70px;
+    }
+
+    .section-2 .list-3 {
+
+        padding-top: 20px;
+        padding-bottom: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+        gap: 30px;
+    }
+
+    .main-footer {
+        margin-left: -260px;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        color: rgb(247, 99, 45);
+    }
 
 }
 
@@ -2961,12 +3033,12 @@ span {
 
     .section-2 .sub h2 {
         color: rgb(247, 99, 45);
-        padding-left: 70px;
+        padding-left: 120px;
         font-size: 1.5em;
     }
 
     .section-2 .sub input {
-        margin-left: 70px;
+        margin-left: 105px;
         width: 150px;
         height: 20px;
         border-radius: 3px;
@@ -2976,7 +3048,7 @@ span {
     .section-2 .sub .sub-text {
 
         border: 0px;
-        padding-left: 18px;
+        padding-left: 53px;
 
     }
 
@@ -2984,13 +3056,241 @@ span {
 
     .section-2 .sub-text-2 {
 
-        margin-left: -30px;
+        margin-left: 5px;
         font-size: 0.8em;
         width: 250px;
     }
 
     .section-2 h1 {
-        width: 260px;
+        width: 310px;
+    }
+
+    .section-2 .list-3 {
+
+        padding-top: 20px;
+        padding-bottom: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+        gap: 25px;
+    }
+
+    .main-footer {
+        margin-left: -270px;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        color: rgb(247, 99, 45);
+    }
+}
+
+@media(max-width: 370px) {
+    .section .sub-section .web-text {
+        width: 290px;
+        padding-top: 20px;
+    }
+
+    .section-1 {
+        display: block;
+        margin-left: 37px;
+    }
+
+    .section-2 p {
+        margin-left: 50px;
+    }
+
+    .section-2 .sub h2 {
+        color: rgb(247, 99, 45);
+        padding-left: 100px;
+        font-size: 1.5em;
+    }
+
+    .section-2 .sub input {
+        margin-left: 90px;
+        width: 150px;
+        height: 20px;
+        border-radius: 3px;
+        padding: 5px;
+    }
+
+    .section-2 .sub .sub-text {
+
+        border: 0px;
+        padding-left: 38px;
+
+    }
+
+    .section-2 .sub-text-2 {
+
+        margin-left: -10px;
+        font-size: 0.8em;
+        width: 250px;
+    }
+
+    .section-2 h1 {
+        width: 290px;
+    }
+
+
+    .section-2 .list-3 {
+
+        gap: 20px;
+    }
+
+    .main-footer {
+        margin-left: -280px;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        color: rgb(247, 99, 45);
     }
 
 }
+
+@media(max-width: 360px) {
+    .section .sub-section .web-text {
+        width: 270px;
+        padding-top: 20px;
+    }
+
+    .section-1 {
+        display: block;
+        margin-left: 30px;
+    }
+
+
+    .section-2 .sub input {
+        margin-left: 80px;
+        width: 150px;
+        height: 20px;
+        border-radius: 3px;
+        padding: 5px;
+    }
+
+    .section-2 .sub .sub-text {
+
+        border: 0px;
+        padding-left: 28px;
+
+    }
+
+    .section-2 .sub-text-2 {
+
+        margin-left: -20px;
+        font-size: 0.8em;
+        width: 250px;
+    }
+
+    .section-2 h1 {
+        width: 285px;
+    }
+
+
+    .section-2 .list-3 {
+
+        gap: 20px;
+    }
+
+}
+
+
+@media(max-width: 350px) {
+
+    .section-1 {
+        display: block;
+        margin-left: 35px;
+    }
+
+    .section-2 p {
+        margin-left: 40px;
+    }
+
+    .section-2 .sub h2 {
+        padding-left: 80px;
+    }
+
+    .section-2 .sub input {
+        margin-left: 65px;
+        width: 150px;
+        height: 20px;
+        border-radius: 3px;
+        padding: 5px;
+    }
+
+    .section-2 .sub .sub-text {
+
+        border: 0px;
+        padding-left: 13px;
+
+    }
+
+    .section-2 .sub-text-2 {
+
+        margin-left: -40px;
+        font-size: 0.8em;
+        width: 240px;
+    }
+
+    .section-2 h1 {
+        width: 270px;
+    }
+
+
+    .section-2 .list-3 {
+
+        gap: 15px;
+    }
+
+
+    .main-footer {
+        margin-left: -295px;
+
+    }
+}
+
+@media(max-width: 340px) {
+    .section-1 {
+        display: block;
+        margin-left: 20px;
+    }
+
+    .section-2 h1 {
+        width: 255px;
+    }
+
+
+    .section-2 .list-3 {
+
+        gap: 10px;
+    }
+}
+
+@media(max-width: 330px) {
+
+    .section .sub-section .web-text {
+        width: 250px;
+        padding-top: 20px;
+    }
+
+
+    .section-1 {
+        margin-left: 15px;
+    }
+
+    .section-2 p {
+        margin-left: 30px;
+    }
+
+    .section-2 h1 {
+        width: 240px;
+    }
+
+    .section-2 .list-3 {
+
+        gap: 7px;
+    }
+
+    .main-footer {
+        margin-left: -310px;
+    }
+
+}
+
+@media(max-width: 330px) {}
