@@ -2018,7 +2018,8 @@ span {
         border-right: 0.5px rgb(247, 99, 45) solid;
         transition: 0.8s ease-in-out;
         flex-direction: column;
-        gap: 80px;
+        /* width: 50%; */
+        justify-content: space-around;
     }
 
     .list.active {
@@ -2224,6 +2225,10 @@ span {
         font-size: 9px;
     }
 
+    .list {
+        justify-content: space-around;
+    }
+
     .section .sub-section .web-text {
         width: 425px;
     }
@@ -2345,6 +2350,9 @@ span {
 }
 
 @media(max-width: 480px) {
+    .list {
+        justify-content: space-around;
+    }
 
     .search {
         display: none;
@@ -2429,6 +2437,10 @@ span {
 }
 
 @media(max-width: 470px) {
+    .list {
+        justify-content: space-around;
+    }
+
     .section-2 p {
         margin-left: 45px;
         width: 390px;
@@ -2454,6 +2466,10 @@ span {
 }
 
 @media(max-width: 450px) {
+    .list {
+        justify-content: space-around;
+    }
+
     .section .sub-section .web-text {
         width: 370px;
     }
@@ -2497,6 +2513,9 @@ span {
 }
 
 @media(max-width: 440px) {
+    .list {
+        justify-content: space-around;
+    }
 
     .section-1 {
         margin-left: 50px;
@@ -2505,16 +2524,20 @@ span {
 }
 
 @media(max-width: 430px) {
+
+    .list {
+        justify-content: space-around;
+    }
+
     .section-2 {
         width: 200px;
     }
 }
 
 @media(max-width: 420px) {
-
-
-
-    .container {}
+    .list {
+        justify-content: space-around;
+    }
 
     .main-header h1 {
         font-size: 1em;
@@ -2723,6 +2746,11 @@ span {
 
 @media (max-width: 410px) {
 
+    .list {
+        justify-content: space-around;
+    }
+
+
     .section-2 p {
         width: 330px;
     }
@@ -2752,6 +2780,9 @@ span {
 
 @media(max-width: 400px) {
 
+    .list {
+        justify-content: space-around;
+    }
 
     .main-header h1 {
         font-size: 1em;
@@ -2962,6 +2993,9 @@ span {
 }
 
 @media(max-width: 390px) {
+    .list {
+        justify-content: space-around;
+    }
 
     .section .sub-section .web-text {
         width: 310px;
@@ -3026,6 +3060,11 @@ span {
 }
 
 @media(max-width: 380px) {
+
+    .list {
+        justify-content: space-around;
+    }
+
     .section-1 {
         display: block;
         margin-left: 20px;
@@ -3083,6 +3122,11 @@ span {
 }
 
 @media(max-width: 370px) {
+
+    .list {
+        justify-content: space-around;
+    }
+
     .section .sub-section .web-text {
         width: 290px;
         padding-top: 20px;
@@ -3145,6 +3189,11 @@ span {
 }
 
 @media(max-width: 360px) {
+
+    .list {
+        justify-content: space-around;
+    }
+
     .section .sub-section .web-text {
         width: 270px;
         padding-top: 20px;
@@ -3192,6 +3241,9 @@ span {
 
 
 @media(max-width: 350px) {
+    .list {
+        justify-content: space-around;
+    }
 
     .section-1 {
         display: block;
@@ -3246,6 +3298,10 @@ span {
 }
 
 @media(max-width: 340px) {
+    .list {
+        justify-content: space-around;
+    }
+
     .section-1 {
         display: block;
         margin-left: 20px;
@@ -3263,6 +3319,10 @@ span {
 }
 
 @media(max-width: 330px) {
+    .list {
+        justify-content: space-around;
+    }
+
 
     .section .sub-section .web-text {
         width: 250px;
