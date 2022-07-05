@@ -2104,6 +2104,7 @@ span {
     .section-1 .list-2 {
         position: static;
         flex-direction: row;
+        justify-content: space-around;
     }
 
     .section-2 {
@@ -2172,8 +2173,8 @@ span {
         padding-bottom: 30px;
         margin-left: 20px;
         margin-right: 20px;
+        justify-content: space-around;
 
-        gap: 20px;
     }
 
     .section-2 .list-3 .list-items a {
@@ -2270,6 +2271,7 @@ span {
         position: static;
         flex-direction: row;
         margin-left: 50px;
+        justify-content: space-around;
     }
 
     .section-1 .list-2 .list-items-1 {
@@ -2338,8 +2340,7 @@ span {
         padding-bottom: 30px;
         margin-left: 20px;
         margin-right: 20px;
-
-        gap: 25px;
+        justify-content: space-around;
     }
 
     .main-footer {
@@ -2361,6 +2362,10 @@ span {
         left: 100px;
         top: 1680px; */
 
+    }
+
+    .section-1 .list-2 {
+        justify-content: space-around;
     }
 
     .section-2 p {
@@ -2425,7 +2430,7 @@ span {
         padding-bottom: 30px;
         margin-left: 20px;
         margin-right: 20px;
-
+        justify-content: space-around;
         gap: 25px;
     }
 
@@ -2441,9 +2446,17 @@ span {
         justify-content: space-around;
     }
 
+    .section-1 .list-2 {
+        justify-content: space-around;
+    }
+
     .section-2 p {
         margin-left: 45px;
         width: 390px;
+    }
+
+    .section-2 .list-3 {
+        justify-content: space-around;
     }
 }
 
@@ -2452,6 +2465,10 @@ span {
 
     .section .sub-section .web-text {
         width: 400px;
+    }
+
+    .section-1 .list-2 {
+        justify-content: space-around;
     }
 
     .section-2 p {
@@ -2463,6 +2480,9 @@ span {
         width: 390px;
     }
 
+    .section-2 .list-3 {
+        justify-content: space-around;
+    }
 }
 
 @media(max-width: 450px) {
@@ -2472,6 +2492,10 @@ span {
 
     .section .sub-section .web-text {
         width: 370px;
+    }
+
+    .section-1 .list-2 {
+        justify-content: space-around;
     }
 
     .section-2 p {
@@ -2510,6 +2534,9 @@ span {
         width: 250px;
     }
 
+    .section-2 .list-3 {
+        justify-content: space-around;
+    }
 }
 
 @media(max-width: 440px) {
@@ -2521,6 +2548,13 @@ span {
         margin-left: 50px;
     }
 
+    .section-1 .list-2 {
+        justify-content: space-around;
+    }
+
+    .section-2 .list-3 {
+        justify-content: space-around;
+    }
 }
 
 @media(max-width: 430px) {
@@ -2529,15 +2563,21 @@ span {
         justify-content: space-around;
     }
 
+    .section-1 .list-2 {
+        justify-content: space-around;
+    }
+
     .section-2 {
         width: 200px;
+    }
+
+    .section-2 .list-3 {
+        justify-content: space-around;
     }
 }
 
 @media(max-width: 420px) {
-    .list {
-        justify-content: space-around;
-    }
+
 
     .main-header h1 {
         font-size: 1em;
@@ -2598,6 +2638,7 @@ span {
         padding: 100px 35px;
         transform: translateX(-500px);
         transition: 0.3s ease-in-out;
+        justify-content: space-around;
     }
 
     .list.active {
@@ -2646,6 +2687,7 @@ span {
     .section-1 {
         display: block;
         margin-left: 70px;
+
     }
 
     .section-1 p {
@@ -2657,6 +2699,7 @@ span {
         position: static;
         flex-direction: row;
         margin-left: 20px;
+        justify-content: space-around;
     }
 
     .section-1 .list-2 .list-items-1 {
@@ -2732,7 +2775,7 @@ span {
         padding-bottom: 30px;
         margin-left: 20px;
         margin-right: 20px;
-
+        justify-content: space-around;
         gap: 26px;
     }
 
@@ -2750,10 +2793,14 @@ span {
         justify-content: space-around;
     }
 
+    .section-1 .list-2 {
+        justify-content: space-around;
+    }
 
     .section-2 p {
         width: 330px;
     }
+
 
 
     .section-2 .sub h2 {
@@ -2775,6 +2822,10 @@ span {
         border: 0px;
         padding-left: 66px;
 
+    }
+
+    .section-2 .list-3 {
+        justify-content: space-around;
     }
 }
 
@@ -2903,6 +2954,7 @@ span {
         position: static;
         flex-direction: row;
         margin-left: 20px;
+        justify-content: space-around;
     }
 
     .section-1 .list-2 .list-items-1 {
@@ -2980,6 +3032,7 @@ span {
         margin-right: 20px;
         gap: 30px;
         font-size: 0.8em;
+        justify-content: space-around;
     }
 
 
@@ -3000,6 +3053,10 @@ span {
     .section .sub-section .web-text {
         width: 310px;
         padding-top: 20px;
+    }
+
+    .section-1 .list-2 {
+        justify-content: space-around;
     }
 
     .section-2 p {
@@ -3048,6 +3105,7 @@ span {
         margin-left: 20px;
         margin-right: 20px;
         gap: 30px;
+        justify-content: space-around;
     }
 
     .main-footer {
@@ -3068,6 +3126,10 @@ span {
     .section-1 {
         display: block;
         margin-left: 20px;
+    }
+
+    .section-1 .list-2 {
+        justify-content: space-around;
     }
 
     .section-2 .sub h2 {
@@ -3111,6 +3173,7 @@ span {
         margin-left: 20px;
         margin-right: 20px;
         gap: 25px;
+        justify-content: space-around;
     }
 
     .main-footer {
@@ -3135,6 +3198,10 @@ span {
     .section-1 {
         display: block;
         margin-left: 37px;
+    }
+
+    .section-1 .list-2 {
+        justify-content: space-around;
     }
 
     .section-2 p {
@@ -3175,7 +3242,7 @@ span {
 
 
     .section-2 .list-3 {
-
+        justify-content: space-around;
         gap: 20px;
     }
 
@@ -3204,6 +3271,9 @@ span {
         margin-left: 30px;
     }
 
+    .section-1 .list-2 {
+        justify-content: space-around;
+    }
 
     .section-2 .sub input {
         margin-left: 80px;
@@ -3233,7 +3303,7 @@ span {
 
 
     .section-2 .list-3 {
-
+        justify-content: space-around;
         gap: 20px;
     }
 
@@ -3248,6 +3318,10 @@ span {
     .section-1 {
         display: block;
         margin-left: 35px;
+    }
+
+    .section-1 .list-2 {
+        justify-content: space-around;
     }
 
     .section-2 p {
@@ -3286,7 +3360,7 @@ span {
 
 
     .section-2 .list-3 {
-
+        justify-content: space-around;
         gap: 15px;
     }
 
@@ -3307,13 +3381,17 @@ span {
         margin-left: 20px;
     }
 
+    .section-1 .list-2 {
+        justify-content: space-around;
+    }
+
     .section-2 h1 {
         width: 255px;
     }
 
 
     .section-2 .list-3 {
-
+        justify-content: space-around;
         gap: 10px;
     }
 }
@@ -3334,6 +3412,10 @@ span {
         margin-left: 15px;
     }
 
+    .section-1 .list-2 {
+        justify-content: space-around;
+    }
+
     .section-2 p {
         margin-left: 30px;
     }
@@ -3343,7 +3425,7 @@ span {
     }
 
     .section-2 .list-3 {
-
+        justify-content: space-around;
         gap: 7px;
     }
 
